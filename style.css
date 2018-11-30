@@ -3,12 +3,14 @@
 }
 /* Slideshow container*/
 .carousel-container {
-    width: 1000px; 
-    height: 40%;
+    width: 1200px; 
+    height: 60%;
     position:relative;
     margin:auto;
     overflow: hidden;
+    margin-top: 10em;
    
+
 
 }
 /*Hide slideshow images by default*/
@@ -31,7 +33,7 @@
     bottom: 8px;
     width: 100%;
     text-align: left;
-    top:7.5em;
+    top:9.2em;
 }
 /*Number text for slideshow(1/4 etc)*/
 .numbertext {
@@ -45,9 +47,7 @@
 /*Images for slideshow*/
 img {
     max-width: 100%;
-    max-height: 100%;
-    
-    
+    max-height: 100%; 
 }
 
 /*The dots/bullets indicators for slideshow images*/
@@ -66,7 +66,8 @@ img {
 .dotdiv {
     display: flex;
     justify-content: center;
-    margin-top:1em;
+    margin-top:0.5em;
+
 }
  .active, .dot:hover {
     background-color: #717171;
@@ -98,7 +99,7 @@ img {
 body {
     margin:0;
     font-family: Lato sans-serif;
-    background: rgb(219, 219, 219);
+    background: white;
 }
 /*Slidedeck image links. Hover affects*/
 .carousel-container:hover .mySlides,
@@ -128,9 +129,9 @@ body {
     padding: 25%;
     position: absolute;
     display: none;
-    bottom:-2em;
+    bottom:-2.3em;
     font-size: 3em;
-    left:1.2em;
+    left:2.3em;
   }
   .carousel-container:hover .popuptext,
   .carousel-container:focus .popuptext {
@@ -138,7 +139,7 @@ body {
  
   }
 
-  .popuptext > a {
+.popuptext > a {
       text-decoration: underline;
       color:white;
       cursor: pointer;
@@ -146,36 +147,40 @@ body {
 /*NAVBAR CSS*/
 #navlinks {
     display: flex;
-    justify-content: flex-end;
     font-family: Barlow sans-serif;
     background: white;
     margin-top:0;
     height: 8%;
-    width: auto;
-    padding-top:1.4em;
+    width: 100%;
     position:fixed;
     top:0;
     z-index: 1;
-    width: 100%;
+ 
 }
+.linkcontainer {
+    display:flex;
+    margin-left: 72%;
+    margin-top:1.4%;
+}
+
 .navspan > a {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 0.5em;   
     color: rgb(122, 117, 117);
-    margin-right:1em;
+  
 }
 .navspan:hover {
     text-decoration: underline;
 }
-.farfa-bars {
-    size: 4em;
-}
 #school {
     color: rgb(49, 49, 201);
     font-family: Lato,sans-serif;
-    margin-right:57.8em;
-    margin-top:-0.1em;
+    margin-top:20px;
+    margin-left:20px;
+    position: absolute;
+    top:-5px;
+    
 }
 
 /*Hero Image with Text*/
@@ -187,13 +192,12 @@ body {
     position:relative;
   
 }
+
 .fill img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;  
 }
-
-
 header > h1 {
     color: white;
     font-size: 4em;
@@ -210,5 +214,26 @@ header > h3 {
     left: 3%;
     font-size: 2em;
     font-family: Raleway;
+    font-size: 25px;
+    
 }
+/*Main Section - Porfolio Items*/
+main {
+    margin-top:10%;
+}
+.projects {
+    margin: 12%;
+    display: flex;  
+}
+.imagearticle > img {
+    border-radius: 5%;
+}
+.textarticle {
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    margin-left:5%;  
+    margin-top:2%;
+}
+
  
