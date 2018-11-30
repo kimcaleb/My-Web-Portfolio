@@ -97,7 +97,8 @@ img {
 /*Body*/
 body {
     margin:0;
-    font-family: sans-serif;
+    font-family: Lato sans-serif;
+    background: rgb(219, 219, 219);
 }
 /*Slidedeck image links. Hover affects*/
 .carousel-container:hover .mySlides,
@@ -142,5 +143,72 @@ body {
       color:white;
       cursor: pointer;
   }
+/*NAVBAR CSS*/
+#navlinks {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Barlow sans-serif;
+    background: white;
+    margin-top:0;
+    height: 8%;
+    width: auto;
+    padding-top:1.4em;
+    position:fixed;
+    top:0;
+    z-index: 1;
+    width: 100%;
+}
+.navspan > a {
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 0.5em;   
+    color: rgb(122, 117, 117);
+    margin-right:1em;
+}
+.navspan:hover {
+    text-decoration: underline;
+}
+.farfa-bars {
+    size: 4em;
+}
+#school {
+    color: rgb(49, 49, 201);
+    font-family: Lato,sans-serif;
+    margin-right:57.8em;
+    margin-top:-0.1em;
+}
+
+/*Hero Image with Text*/
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position:relative;
+  
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;  
+}
 
 
+header > h1 {
+    color: white;
+    font-size: 4em;
+    position:absolute;
+    top: 30%;
+    letter-spacing: 0.1em;
+    left: 3%;
+    font-family: Raleway;
+}
+header > h3 {
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 3%;
+    font-size: 2em;
+    font-family: Raleway;
+}
+ 
