@@ -44,6 +44,10 @@
     top: 0;
     
 }
+/*Hero Image*/
+header > .fill > img {
+    margin-top:45px;
+}
 /*Images for slideshow*/
 img {
     max-width: 100%;
@@ -99,7 +103,7 @@ img {
 body {
     margin:0;
     font-family: Lato sans-serif;
-    background: white;
+    background: rgb(247, 244, 244);
 }
 /*Slidedeck image links. Hover affects*/
 .carousel-container:hover .mySlides,
@@ -144,13 +148,14 @@ body {
       color:white;
       cursor: pointer;
   }
+
 /*NAVBAR CSS*/
 #navlinks {
     display: flex;
     font-family: Barlow sans-serif;
     background: white;
     margin-top:0;
-    height: 8%;
+    height: 9%;
     width: 100%;
     position:fixed;
     top:0;
@@ -219,11 +224,16 @@ header > h3 {
 }
 /*Main Section - Porfolio Items*/
 main {
-    margin-top:10%;
+    margin-top:20%;
 }
+
 .projects {
+    margin-top:20%;
     margin: 12%;
-    display: flex;  
+    display: flex;
+    
+   
+    
 }
 .imagearticle > img {
     border-radius: 5%;
@@ -233,7 +243,56 @@ main {
     flex-direction: column;
     width:50%;
     margin-left:5%;  
-    margin-top:2%;
+    margin-top:-1%;
 }
+#project1 > .imagearticle > img {
+    width:423.59px;
+    height: 283.23px;
+}
+
+#project2 > .imagearticle > img {
+    width:423.59px;
+    height: 283.23px;
+}
+#project3 > .imagearticle > img {
+    width:423.59px;
+    height: 283.23px;
+}
+
+#project4 > .imagearticle > img {
+    width:423.59px;
+    height: 283.23px;
+}
+
+/*About me Section and Education*/
+.aboutmeedu {
+    background: rgb(183, 228, 243);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+} 
+
+#flexabout {
+    width:33vw;
+    margin-left:3%;
+    margin-top:0%;
+}
+#education {
+    width:33vw;
+    width:50vw;
+    margin-left:8%;
+    margin-top: 0%;
+    
+}
+#education > p {
+ margin: 0 0;
+}
+#skills > p {
+    width:33vw;
+    margin: 0 0;
+    
+}
+
+ 
 
  
