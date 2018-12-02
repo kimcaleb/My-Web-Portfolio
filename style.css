@@ -104,6 +104,7 @@ body {
     margin:0;
     font-family: Lato sans-serif;
     background: rgb(247, 244, 244);
+    
 }
 /*Slidedeck image links. Hover affects*/
 .carousel-container:hover .mySlides,
@@ -269,8 +270,8 @@ main {
 
 /*About me Section and Education*/
 .aboutmeedu {
-    background: rgb(183, 228, 243);
-    display: flex;
+    background: rgb(183, 226, 243);
+    display: flex;  
     justify-content: center;
     padding: 40px;
 } 
@@ -305,6 +306,7 @@ main {
         "empty2 content2" 
     ;    
     font-weight: bold;
+    color:rgb(122, 117, 117);
 }
 
 #contenttestimonial1 {
@@ -335,4 +337,78 @@ body > h1 {
 }
 .containertestimonials > p > a {
     text-decoration: none;
+}
+
+/*Contact me*/
+form {
+    display:grid;
+    grid-template-areas: 
+        "name email"
+        "message message"
+        "submit submit";
+    grid-gap: 0.75em;
+    color: rgb(49, 49, 201);
+    width: 100%;
+    height: auto;
+    
+}
+input[name="name"] {
+    grid-area: name;
+  
+}
+input[name="email"] {
+    grid-area: email;  
+}
+textarea {
+    grid-area: message;
+}
+input[type="submit"] {
+    grid-area: submit;
+    background: white;
+    font-family: Raleway, sans-serif;
+    color: rgb(49, 49, 201);
+    font-weight: bold;
+}
+
+form input, form textarea {
+    border: 0.09375em solid rgb(49, 49, 201);
+    padding: 0.3125em;
+    margin-bottom: -0.4375em;
+}
+form input::placeholder, form textarea::placeholder {
+    color: lightslategray;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size:0.6875em;
+}
+.contactsection {
+    margin-top:10%; 
+    width: 80%;
+    margin-left:9.375em;
+    margin-bottom:5em;
+
+}
+.contactsection > h1 {
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(49, 49, 201);
+}
+.top {
+    height: 3.5em;
+    background: rgb(183, 226, 243);
+    display:flex;
+    justify-content:center;
+    align-items: center;   
+
+}
+.top > h3 {
+    margin-right:4em;
+    color: rgb(122, 117, 117);
+}
+.top > a {
+    margin: 0 .5em;
+    text-decoration: none;
+}
+.top > a:hover {
+    color:black;
 }
