@@ -20,8 +20,7 @@
     max-height: 100%;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
-    transition: all .3s;
-    
+    transition: all .3s; 
 }
 
 /*Caption text for Slideshow images*/
@@ -161,7 +160,6 @@ body {
     position:fixed;
     top:0;
     z-index: 1;
- 
 }
 .linkcontainer {
     display:flex;
@@ -411,4 +409,70 @@ form input::placeholder, form textarea::placeholder {
 }
 .top > a:hover {
     color:black;
+}
+
+
+/*Responsive Design*/
+
+@media only screen and (max-width: 950px) {
+                      /*NAVBAR*/
+    .linkcontainer {
+        margin-left: 60%;
+        margin-top:2.5%;
+    }  
+    .navspan > a {
+        font-size: 1.1em;   
+    }
+    .navspan > a:hover {
+        color:black;
+    }
+    #school {
+        font-size: 18px;
+        margin-top:3%;
+        
+    }
+                /*HERO IMAGE AND TEXT*/
+    header > h1 {
+        font-size: 3em;
+        top: 25%;
+        letter-spacing: 0em;
+    }
+    header > h3 {
+        top: 45%;
+        font-size: 20px;       
+    }
+                 /*SLIDESHOW*/
+    .carousel-container {
+        width: 700px; 
+        height: 50%;
+    }
+    .text {
+        font-size: 25px;
+        top:12.5em;
+    }
+    .numbertext {
+        font-size: 1.1em;  
+    }
+    .popuptext {
+        bottom:-0.7em;
+        font-size: 1.8em;
+        left:2.1em;
+      }
+            /*PORTFOLIOS*/
+    .textarticle {
+        font-size:13px;
+        margin-top:-1.5%;
+    }
+           /*ABOUT ME*/ 
+    #education {
+        margin-left:4%;        
+    }
+           /*CONTACT ME*/
+    .contactsection {
+        margin-left:6em;
+    }     
+}
+
+@media only screen and (max-width: 560px) {
+    
 }
