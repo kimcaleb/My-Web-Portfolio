@@ -186,8 +186,7 @@ body {
     margin-top:20px;
     margin-left:20px;
     position: absolute;
-    top:-5px;
-    
+    top:-5px; 
 }
 
 /*Hero Image with Text*/
@@ -228,14 +227,10 @@ header > h3 {
 main {
     margin-top:20%;
 }
-
 .projects {
     margin-top:20%;
     margin: 12%;
-    display: flex;
-    
-   
-    
+    display: flex;   
 }
 .imagearticle > img {
     border-radius: 5%;
@@ -347,8 +342,7 @@ form {
     grid-gap: 0.75em;
     color: rgb(49, 49, 201);
     width: 100%;
-    height: auto;
-    
+    height: auto;   
 }
 input[name="name"] {
     grid-area: name;
@@ -391,6 +385,8 @@ form input::placeholder, form textarea::placeholder {
     text-align: center;
     color: rgb(49, 49, 201);
 }
+
+            /*FOOTER*/
 .top {
     height: 3.5em;
     background: rgb(183, 226, 243);
@@ -422,9 +418,6 @@ form input::placeholder, form textarea::placeholder {
     }  
     .navspan > a {
         font-size: 1.1em;   
-    }
-    .navspan > a:hover {
-        color:black;
     }
     #school {
         font-size: 18px;
@@ -474,5 +467,121 @@ form input::placeholder, form textarea::placeholder {
 }
 
 @media only screen and (max-width: 560px) {
-    
+                      /*NAVBAR*/
+    .linkcontainer {
+        margin-left: 2%;
+        margin-top:5%;
+    }  
+    .navspan > a {
+        font-size: 1.3em;   
+    }
+    #school {
+        font-size: 18px;
+        margin-top:3%;   
+    }
+    #school {
+        display:none;
+    }
+                /*HERO IMAGE AND TEXT*/
+    header > h1 {
+        font-size: 1.6em;
+        top: 20%;
+    }
+    header > h3 {
+        top: 28%;
+        font-size: 11px;       
+    }
+    .fill > img {
+        height:50%;
+    }
+                     /*SLIDESHOW*/
+    .carousel-container {
+        width: 350px;
+        margin-top:25%;
+    }
+    .text {
+        display:none;
+    }
+    .numbertext {
+        font-size: 1em;  
+        left:-0.5em;
+    }
+    .popuptext {
+        font-size: 1em;
+        left:1.6em;
+    }
+    .dotdiv > .dot {
+        display:none;
+    }
+                /*PORTFOLIOS*/
+    .textarticle {
+        font-size:15px;
+        margin-top:-1.5%;
+        width:100%;        
+    }
+    main {
+        margin-top:-20%;
+    }
+    .projects {
+        margin: 12%;
+        display: flex;  
+        flex-direction: column; 
+    }
+                /*ABOUT ME*/
+    #education {
+        margin-left:4%; 
+        width: 100%;       
+    }
+    .aboutmeedu {
+        flex-direction: column;
+    }
+    #flexabout {
+        width: 100%;
+    }
+    #skills {
+        margin-left:4%;
+        width: 100%;
+    }
+    #skills > p {
+        width:100%;
+    }
+
+                /*TESTIMONIALS*/
+    body > h1 {
+        margin-top:20%;
+    }
+    #testimonials {
+        grid-template-areas: 
+            "content1"
+            "content2";
+    }
+    #contenttestimonial1 {
+        margin:0 25px;
+        margin-top: 30px;
+    }
+    #contenttestimonial2 {
+        margin:0 25px;
+        margin-top:30px;
+    }
+                /*CONTACT ME*/
+    .contactsection {
+        margin-left:2.5em;
+        margin-top: 100px;
+    }
+    form {
+        grid-template-areas: 
+            "name"
+            "email"
+            "message"
+            "submit";
+    } 
+                /*FOOTER*/
+    .top > h3 {
+        font-size: 15px;
+    }
+    .top > a {
+        margin-right: 20px;
+    }
+
+            
 }
