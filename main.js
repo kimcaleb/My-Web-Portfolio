@@ -52,7 +52,7 @@ function showSlidesImproved() {
                 /*Eliminated redundancies by incorporating the use of the evt object. We can use eventObject.target.id to obtain the exact dot that was clicked */
 var element = document.getElementById("dot1");
 console.log(typeof element.id);
-$(".dot").on("click",function(evt,) {
+$(".dot").on("click",function(evt) {
     for (var i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
      } 
@@ -79,7 +79,7 @@ $(".dot").on("click",function(evt,) {
 });
 /*SLIDESHOW IMAGE STUFF END */
 
-
+/*Testimonial Fade in and Out*/
 
 
 

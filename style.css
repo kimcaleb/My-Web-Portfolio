@@ -175,6 +175,9 @@ body {
     color: rgb(122, 117, 117);
   
 }
+.navspan > a:hover {
+    color:black;
+}
 .navspan:hover {
     text-decoration: underline;
 }
@@ -289,10 +292,47 @@ main {
 }
 #skills > p {
     width:33vw;
-    margin: 0 0;
-    
+    margin: 0 0;   
 }
 
- 
+/*Testimonials*/
+#testimonials {
+    text-align: center;
+    display:grid;
+    justify-content: center;
+    grid-template-areas:
+        "content1 empty1"
+        "empty2 content2" 
+    ;    
+    font-weight: bold;
+}
 
- 
+#contenttestimonial1 {
+    grid-area: content1;
+    margin-left:40px;
+    display:block;
+}
+#emptytestimonial1 {
+    grid-area: empty1;
+    display:none;
+}
+#contenttestimonial2 {
+    grid-area: content2;
+    margin-top:50px;
+    margin-right:40px;
+    display:block;
+}
+#emptytestimonial2 {
+    grid-area: empty2;
+    display: none;
+}
+
+body > h1 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom:3%;
+    color: rgb(49, 49, 201);
+}
+.containertestimonials > p > a {
+    text-decoration: none;
+}
