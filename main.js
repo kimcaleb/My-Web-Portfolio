@@ -79,7 +79,6 @@ $(".dot").on("click",function(evt) {
 });
 /*SLIDESHOW IMAGE STUFF END */
 
-/*Testimonial Fade in and Out*/
 
 
 
