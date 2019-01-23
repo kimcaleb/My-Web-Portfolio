@@ -1,121 +1,59 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unit 1 Project Build an About Me Site
+# Project 1
 
-#### Overview
+URL: https://kimcaleb.github.io/My-Web-Portfolio/
+![alt text](https://i.imgur.com/HYFDYGU.png)
 
-This project will give you a chance to use the skills we've learned in class to create a site that highlights the skills and projects you'll be working on in WDI. You'll get a chance to use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, and quotes that fade in and out on a timer.
+![alt text](https://i.imgur.com/R0umlIE.png)
 
-Make sure to customize the design and content of the website to make it your own.
+![alt text](https://i.imgur.com/OmpIWrw.png)
 
-You will be working individually for this project, but we'll be guiding you throughout the process and helping as you go.
+![alt text](https://i.imgur.com/TBoGDg0.png)
 
+![alt text](https://i.imgur.com/5xEDjbf.png)
+
+
+### Introduction to my Web Portfolio
 ---
-
-#### Requirements
-
-Your work must:
-
-- Use semantic markup for HTML and CSS, adhering to best practices.
-- Use Flexbox/Grid to create a multi-column layout.
-- Be completely responsive.
-- Include separate HTML/CSS/JavaScript files.
-- Stick with the KISS (Keep It Simple Silly) and DRY (Don't Repeat Yourself) principles.
-- Use JavaScript for DOM manipulation.
-- Be deployed and accessible online via GitHub Pages.
+My webpage portfolio showcasing the various projects I have worked on and my background.
 
 
+
+### Technologies used
 ---
+- HTML5
+- CSS3
+- JavaScript/JQuery
 
-#### Necessary Deliverables
 
-- A working site, built by you, hosted somewhere on the internet.
-- A Git repository, hosted on your personal GitHub, that includes a link to your hosted site and frequent commits dating back to the beginning of the project.
-- A `README.md` file with explanations of:
-  - Technologies used.
-  - Your process/approach.
-  - Unsolved problems.
-  - Your biggest wins and challenges.
-- Screenshots of the snippets of code you used to solve particularly interesting problems (think code highlights).
-- An in-class demo of the site that shows off the interactions you worked on.
-
-- A carousel whose images slide to the side on a timer, along with indicators that the user can click to navigate to a particular project.
-
-	![](assets/carousel.gif)
-	- Use the internet to find great carousels! [BootStrap Version](https://getbootstrap.com/docs/4.0/components/carousel/) [Materialize Version](https://materializecss.com/carousel.html)
-
-- Nav bar functionality that allows the page to scroll smoothly to the correspending section when a nav item is clicked.
-
-	![](assets/smooth-scroll.gif)
-
-- Nav bar functionality that highlights a nav item when the user scrolls to the corresponding section of the page.
-
-	![](assets/nav-highlight.gif)
-
-- A testimonials section in which testimonials rotate in and out on a timer.
-
-	![](assets/testimonials.gif)
-
-- A mobile nav that expands and collapses when a user clicks on the hamburger icon.
-
-	![](assets/mobile-nav.gif)
-
-- Remember that you should customize the design of the site and make it your own. Here's a guideline for what the site could look like:
-
-![](assets/desktop.png)
-
-![](assets/mobile.png)
-
+### Wireframe
 ---
+![alt text](https://i.imgur.com/P8Yn0ih.png)
+![alt text](https://i.imgur.com/K8O58Hz.png)
+![alt text](https://i.imgur.com/k5kH5Ll.png)
+![alt text](https://i.imgur.com/CSxfVWv.png)
+![alt text](https://i.imgur.com/RcoAWBC.png)
 
-#### Starter Code
 
-No starter code has been provided for this project, as you will be building your site from scratch. As an option, you can use the [HTML5 Boilerplate](https://html5boilerplate.com/) as a template to get started.
-
+### Process/Approach
 ---
-#### Suggested Ways to Get Started
+- WiredFramed basic outlined.
+- Tackled the most challenging part first - interactive slideshow of projects (HTML -> CSS -> JS)
+- Made html tags for basic structure.
+- Tackled each section 1 by 1 (HTML -> CSS -> JS).
+- Tackled reponsive design for tablet and phone display. 
 
-- Don't hesitate to write throwaway code to solve short-term problems.
-- Read the documentation for whatever technologies you use. **Most of the time — but not always — there is a tutorial you can follow, and learning to read documentation is crucial to your success as a developer.**
-- **Write pseudocode before you write any JavaScript code.** Planning out and thinking through interactions for a website is an important step that will save you time and effort when you start actually coding.
-- Do not simply copy and paste code that you find online! It is OK (and highly encouraged) to use resources like Stack Overflow when thinking through interactions, but use these sites as a guide and then write the code on your own.
-
-
+### Biggest Challenges and Win
 ---
+#### TURNED THIS
+![alt text](https://i.imgur.com/al4iHpp.png)
+#### INTO THIS
+![alt text](https://i.imgur.com/vMLy000.png)
+#### PART OF THE ISSUE WITH THE NAIVE ALGORITHM - RECURSION
+![alt text](https://i.imgur.com/iw7cwXH.png)
+#### TURNED THIS
+![alt text](https://i.imgur.com/IgtoA7k.png)
+#### INTO THIS
+![alt text](https://i.imgur.com/yUGz9MX.png)
 
-#### Hungry For More?
-
-If you're looking for an extra challenge, try tackling some of the tasks below:
-
-* Add validation to the contact form to make sure the user has filled out all required fields before submitting.
-* Add a skills section featuring skills you have/will have learned in the class.
-* Add functionality so that the carousel works with swiping on an iPad/iPhone.
-* Utilize an API.
-
----
-
-#### Need More Review?
-
-
-- HTML/CSS
-	- [Codecademy — Learn HTML/CSS](https://www.codecademy.com/learn/learn-html-css)
-	- [Practice CSS Selectors with CSS Diner](https://flukeout.github.io/)
-	- [Flexbox Froggy](http://flexboxfroggy.com/)
-
-
-- JavaScript
-	- [Eloquent JavaScript Textbook](http://eloquentjavascript.net/)
-	- [30 Days to Learn jQuery](https://code.tutsplus.com/courses/30-days-to-learn-jquery)
-	- [JavaScript Timers](https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers)
-	- [Codecademy — Learn JavaScript](https://www.codecademy.com/learn/learn-javascript)
-
----
-
-#### Project Grade
-
-Based on the requirements above, you can earn a maximum of **24** points on this project. Your instructors will score each of your technical requirements using the scale below:
-
-| Score | Expectations               |
-|-------|----------------------------|
-| 0     | _Incomplete_                 |
-| 1     | _Does Not Meet Expectations_ |
-| 2     | _Meets Expectations_         |
-| 3     | _Exceeds Expectations_       |
+### Unsolved Problems
+- Wanted to make quotes fade in and out.
