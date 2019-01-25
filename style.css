@@ -44,14 +44,34 @@
     
 }
 /*Hero Image*/
-header > .fill > img {
+.fill { 
+    margin: auto;
+}
+.fill::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0, #fff 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+}
+
+header{
+    border:3px solid white;
+}
+
+.headerImage {
     margin-top:45px;
+    max-width: 100%;
+    
 }
 
 /*Images for slideshow*/
 img {
     max-width: 100%;
     max-height: 100%; 
+
 }
 
 /*The dots/bullets indicators for slideshow images*/
@@ -103,7 +123,7 @@ img {
 body {
     margin:0;
     font-family: Lato sans-serif;
-    background: rgb(247, 244, 244);
+    background: white;
     
 }
 /*Slidedeck image links. Hover affects*/
@@ -191,20 +211,7 @@ body {
 }
 
 /*Hero Image with Text*/
-.fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position:relative;
-  
-}
 
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;  
-}
 header > h1 {
     color: white;
     font-size: 4em;
@@ -241,25 +248,25 @@ main {
     flex-direction: column;
     width:50%;
     margin-left:5%;  
-    margin-top:-1%;
+    margin-top:-2%;
 }
 #project1 > .imagearticle > img {
     width:423.59px;
-    height: 283.23px;
+    height: 383.23px;
 }
 
 #project2 > .imagearticle > img {
     width:423.59px;
-    height: 283.23px;
+    height: 383.23px;
 }
 #project3 > .imagearticle > img {
     width:423.59px;
-    height: 283.23px;
+    height: 383.23px;
 }
 
 #project4 > .imagearticle > img {
     width:423.59px;
-    height: 283.23px;
+    height: 383.23px;
 }
 
 /*About me Section and Education*/
@@ -492,9 +499,7 @@ form input::placeholder, form textarea::placeholder {
         top: 28%;
         font-size: 11px;       
     }
-    .fill > img {
-        height:50%;
-    }
+
                      /*SLIDESHOW*/
     .carousel-container {
         width: 350px;
